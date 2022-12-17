@@ -175,17 +175,18 @@
 <div class="section" id="portfolio">
   <div class="container cc-education">
     <div class="h4 text-center mb-4 title">Download Data In Excel</div>
-    <div style="width:30%; margin-top:10px; margin-left:35%">
+    <div style="width:50%; margin-top:10px; text-align:center; margin-left:25%">
       <div class="card">
         <img src="{{qrCode}}" alt="Avatar" style="width:100%">
         <div class="container">
           <p style="text-align:center"><b>Scan and Download</b></p> 
           <h6 style="text-align:center"><b> OR </b></h6>
-          <a class="btn btn-primary" style="margin-left:25%" href="{% url 'excel_download' %}" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV Data </a>
+          <div style="text-align:center">
+            <a class="btn btn-primary" href="{% url 'excel_download' %}" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV Data </a>
+          </div>
         </div>
       </div>
       </div>
-    
     </div>
   </div>
 </div>
