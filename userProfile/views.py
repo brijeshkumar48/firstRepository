@@ -39,7 +39,7 @@ def download(request):
     resp = f"{settings.MEDIA_ROOT}" + str(user_details.pdf)
     with open(resp, 'rb') as pdf:
         response = HttpResponse(pdf.read(),content_type='application/pdf')
-        response['Content-Disposition'] = 'filename=invoice_school_sfa.pdf'
+        response['Content-Disposition'] = 'filename=brijesh_resume.pdf'
         return response
 
 
